@@ -1,9 +1,21 @@
-# System Prompt Template
+# System Prompt Generator
 
-A reusable checklist template for generating high-quality system prompts with consistent features and quality controls.
+Interactive shell script and template for generating high-quality system prompts with consistent features and quality controls.
 
 ## Quick Start
 
+### Interactive Generator (Recommended)
+```bash
+./generate_system_prompt.sh
+```
+
+### Demo
+```bash
+./demo.sh
+```
+See the generator in action with sample inputs.
+
+### Manual Template Method
 1. **Copy the template** from `system_prompt_template.md`
 2. **Fill in the role details** (primary role, expertise level, communication style)
 3. **Check/uncheck optional features** as needed
@@ -36,6 +48,10 @@ Role Definition → Planning → Reasoning → Research →
 Quality Control → Citations → User Interaction → 
 Advisory → Core Principles → Custom Requirements
 ```
+
+## Output
+
+Generated prompts are saved in the `collection/` directory as markdown files.
 
 ## Example Usage
 
